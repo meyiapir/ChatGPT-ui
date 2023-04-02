@@ -154,17 +154,17 @@ export const Chat: FC<Props> = memo(
         {!(apiKey || serverSideApiKeyIsSet) ? (
           <div className="mx-auto flex h-full w-[300px] flex-col justify-center space-y-6 sm:w-[600px]">
             <div className="text-center text-4xl font-bold text-black dark:text-white">
-              Welcome to Chatbot UI
+              Welcome to ChatGPT Pro
             </div>
             <div className="text-center text-lg text-black dark:text-white">
-              <div className="mb-8">{`Chatbot UI is an open source clone of OpenAI's ChatGPT UI.`}</div>
+              <div className="mb-8">{`ChatGPT Pro is an open source clone of OpenAI's ChatGPT UI.`}</div>
               <div className="mb-2 font-bold">
-                Important: Chatbot UI is 100% unaffiliated with OpenAI.
+                Important: ChatGPT Pro is 100% unaffiliated with OpenAI.
               </div>
             </div>
             <div className="text-center text-gray-500 dark:text-gray-400">
               <div className="mb-2">
-                Chatbot UI allows you to plug in your API key to use this UI
+                ChatGPT Pro allows you to plug in your API key to use this UI
                 with their API.
               </div>
               <div className="mb-2">
@@ -209,7 +209,7 @@ export const Chat: FC<Props> = memo(
                           <Spinner size="16px" className="mx-auto" />
                         </div>
                       ) : (
-                        'Chatbot UI'
+                        'ChatGPT Pro'
                       )}
                     </div>
 

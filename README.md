@@ -1,14 +1,12 @@
-# Chatbot UI
+# ChatGPT Pro
+### Forked from [mckaywrigley](https://github.com/mckaywrigley/chatbot-ui)
+ChatGPT Pro is an advanced chatbot kit for OpenAI's chat models using Next.js, TypeScript, and Tailwind CSS.
 
-Chatbot UI is an advanced chatbot kit for OpenAI's chat models built on top of [Chatbot UI Lite](https://github.com/mckaywrigley/chatbot-ui-lite) using Next.js, TypeScript, and Tailwind CSS.
-
-See a [demo](https://twitter.com/mckaywrigley/status/1640380021423603713?s=46&t=AowqkodyK6B4JccSOxSPew).
-
-![Chatbot UI](./public/screenshot.png)
+![ChatGPT Pro](./public/screenshot.png)
 
 ## Updates
 
-Chatbot UI will be updated over time.
+ChatGPT Pro will be updated over time.
 
 Expect frequent improvements.
 
@@ -47,29 +45,13 @@ Modify the system prompt in `utils/index.ts`.
 
 ## Deploy
 
-**Vercel**
-
-Host your own live version of Chatbot UI with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fmckaywrigley%2Fchatbot-ui)
-
-**Replit**
-
-Fork Chatbot UI on Replit [here](https://replit.com/@MckayWrigley/chatbot-ui-pro?v=1).
-
 **Docker**
 
 Build locally:
 
 ```shell
-docker build -t chatgpt-ui .
-docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chatgpt-ui
-```
-
-Pull from ghcr:
-
-```
-docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/mckaywrigley/chatbot-ui:main
+docker build -t chatgpt-pro .
+docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 chatgpt-pro
 ```
 
 ## Running Locally
@@ -77,7 +59,7 @@ docker run -e OPENAI_API_KEY=xxxxxxxx -p 3000:3000 ghcr.io/mckaywrigley/chatbot-
 **1. Clone Repo**
 
 ```bash
-git clone https://github.com/mckaywrigley/chatbot-ui.git
+git clone https://github.com/meyiapir/ChatGPT-ui.git
 ```
 
 **2. Install Dependencies**
@@ -123,4 +105,4 @@ If you don't have an OpenAI API key, you can get one [here](https://platform.ope
 
 ## Contact
 
-If you have any questions, feel free to reach out to me on [Twitter](https://twitter.com/mckaywrigley).
+If you have any questions, feel free to reach out to me on [Telegram](https://twitter.com/mckaywrigley).

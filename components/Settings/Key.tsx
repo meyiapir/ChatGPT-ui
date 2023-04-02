@@ -25,7 +25,7 @@ export const Key: FC<Props> = ({ apiKey, onApiKeyChange }) => {
     onApiKeyChange(newKey.trim());
     setIsChanging(false);
   };
-  
+
   useEffect(() => {
     if (isChanging) {
       inputRef.current?.focus();

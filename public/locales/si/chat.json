@@ -23,6 +23,6 @@
   "click if using a .env.local file": "click if using a .env.local file",
   "Message limit is {{maxLength}} characters. You have entered {{valueLength}} characters.": "පණිවිඩ සීමාව අකුරු {{maxLength}} කි. ඔබ අක්ෂර {{valueLength}} ඇතුළත් කර ඇත.।",
   "Please enter a message": "කරුණාකර පණිවිඩයක් ඇතුළු කරන්න",
-  "Chatbot UI is an advanced chatbot kit for OpenAI's chat models aiming to mimic ChatGPT's interface and functionality.": "Chatbot UI යනු ChatGPT හි අතුරු මුහුණත සහ ක්‍රියාකාරීත්වය අනුකරණය කිරීම අරමුණු කරගත් OpenAI හි චැට් මාදිලි සඳහා වන උසස් චැට්බෝට් කට්ටලයකි.",
+  "ChatGPT Pro is an advanced chatbot kit for OpenAI's chat models aiming to mimic ChatGPT's interface and functionality.": "ChatGPT Pro යනු ChatGPT හි අතුරු මුහුණත සහ ක්‍රියාකාරීත්වය අනුකරණය කිරීම අරමුණු කරගත් OpenAI හි චැට් මාදිලි සඳහා වන උසස් චැට්බෝට් කට්ටලයකි.",
   "Are you sure you want to clear all messages?": "ඔබට සියලු පණිවිඩ හිස් කිරීමට අවශ්‍ය බව විශ්වාසද?"
 }
